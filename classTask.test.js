@@ -34,7 +34,6 @@ test("test for class timing filtering", ()=>{
 
 test("letter grade mapping", ()=> {
     let studentGrade = [95, 78, 85, 60, 45, 92];
-    let expected = ['A', 'B', 'C', 'D', 'F'];
+    let expected = ['A', 'C', 'B', 'D','F', 'A'];
     expect(letterGrade(studentGrade)).toEqual(expected);
 })
-

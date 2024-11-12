@@ -47,7 +47,7 @@ function letterGrade(grade) {
 
 }
 
-module.exports = {scoresGreaterOrEqual, addMark, squareOfNumbers, expensesSummation, afternoonClass};
+module.exports = {scoresGreaterOrEqual, addMark, squareOfNumbers, expensesSummation, afternoonClass, letterGrade};
 
 let scores = [1,2,3,4,99,76,7];
 const expenseList = {
